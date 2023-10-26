@@ -1,8 +1,8 @@
 ﻿using CourseScoreboard;
 
-var usd = new CurrencyRateBoard<string>("USD", 37.5, 38.1);
-var eur = new CurrencyRateBoard<string>("EUR", 40, 40.7);
-var pln = new CurrencyRateBoard<string>("PLN", 8.6, 9.05);
+var usd = new CurrencyRateBoard<double>("USD", 37.5, 38.1);
+var eur = new CurrencyRateBoard<double>("EUR", 40, 40.7);
+var pln = new CurrencyRateBoard<double>("PLN", 8.6, 9.05);
 
 pln.ChangeRate(9, 10.5);
 usd.ChangeRate(38, 39);
